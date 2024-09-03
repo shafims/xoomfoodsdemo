@@ -1,0 +1,5 @@
+.ellipsis {
+    white-space: nowrap; /* Prevent the text from wrapping to the next line */
+    overflow: hidden;    /* Hide any text that overflows the container */
+    text-overflow: ellipsis; /* Show ellipsis (...) for the hidden text */
+  }
