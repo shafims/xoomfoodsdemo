@@ -15,9 +15,9 @@ function Header() {
   const { cart } = useCart();
 
   return (
-    <div className='position-sticky top-0' style={{zIndex:'40'}}>
-      <div className='position-sticky top-0' style={{zIndex:'40'}}>
-      <nav className="navbar navbar-expand-lg bg-secondary">
+    <div className='position-sticky top-0 shadow-sm' style={{zIndex:'40'}}>
+      <div className='position-sticky top-0 bg-white py-3' style={{zIndex:'40'}}>
+      <nav className="navbar navbar-expand-lg bg-white">
         <div className="container-fluid">
           <Link className="navbar-brand" to={'/'} href="#">Navbar</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
