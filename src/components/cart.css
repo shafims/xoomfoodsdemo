@@ -1,0 +1,13 @@
+.main-container {
+    background-color: rgb(248, 250, 252);
+    opacity: 1;
+}
+body {
+    background-color: rgb(248, 250, 252);
+    opacity: 1;
+}
+.ellipsis {
+    white-space: nowrap; /* Prevent the text from wrapping to the next line */
+    overflow: hidden;    /* Hide any text that overflows the container */
+    text-overflow: ellipsis; /* Show ellipsis (...) for the hidden text */
+  }
